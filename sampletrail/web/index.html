@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SampleTrail · Assay Integrity Engine</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="mast">
+    <div class="shell mast-inner">
+      <a class="brand" href="/">SampleTrail</a>
+      <span>Assay Integrity Engine</span>
+      <a class="nav-link" id="import-link" href="#workbench" hidden>Import evidence</a>
+    </div>
+  </header>
+  <main class="shell">
+    <div class="notice">SYNTHETIC DEMONSTRATION DATA — NOT REAL MINE OR LABORATORY DATA.</div>
+    <p class="muted" id="showcase-note" hidden>Hosted showcase · Explore the completed V1 and V2 walkthrough. The local app supports imports, rule edits and new reviews.</p>
+    <div class="overview">
+      <div><p class="eyebrow">Demo Ridge / SIM-BATCH-01</p><h1>Assay batch review</h1><p id="batch-context">Cu (%) · SIM-CU</p></div>
+      <div class="state" id="batch-state">PENDING DATA</div>
+    </div>
+    <div id="message" class="message" role="status" aria-live="polite" hidden></div>
+    <div id="dashboard"></div>
+    <section class="card" id="workbench" hidden>
+      <h2>Import evidence</h2>
+      <div class="work-grid">
+        <form id="rules-form">
+          <h3>Project rules</h3>
+          <label>Rule settings (JSON)<textarea id="rule-text" rows="6" required spellcheck="false"></textarea></label>
+          <div class="actions"><button class="secondary" type="button" id="load-rules">Use demo rules</button><a href="/fixtures/SIM-CERT-A.pdf">Certificate A</a><a href="/fixtures/SIM-CERT-B.pdf">Certificate B</a></div>
+          <label>Rule editor code <input id="rule-code" type="password" required autocomplete="off"></label>
+          <button type="submit">Save project rules</button>
+        </form>
+        <form id="manifest-form">
+          <h3>Submission</h3>
+          <label>Manifest CSV <input name="file" type="file" accept=".csv,text/csv"></label>
+          <div class="actions"><button type="submit">Import manifest</button><button class="secondary" type="button" id="demo-manifest">Import demo manifest</button></div>
+          <p class="muted">Includes the sample, dispatch and receipt records.</p>
+          <a href="/fixtures/manifest.csv" download>Download the example CSV</a>
+        </form>
+      </div>
+      <form id="report-form">
+        <h3>Lab report</h3>
+        <div class="actions">
+          <button class="secondary" type="button" data-prepare="v1">Prepare demo V1</button>
+          <button class="secondary" type="button" data-prepare="v2">Prepare demo V2</button>
+          <span id="prepared" class="muted"></span>
+        </div>
+        <div class="report-grid">
+          <label>Report ID <input name="report_code" required maxlength="240"></label>
+          <label>Lab or issuer <input name="issuer" required maxlength="240"></label>
+          <label>Releasing signatory <input name="signatory" required maxlength="240"></label>
+          <label>Issue time with offset <input name="issued_at" required placeholder="2026-11-24T12:00:00+08:00"></label>
+          <label>Report replaced <input name="replaces" maxlength="240"></label>
+          <label>Lab correction reason <input name="reason" maxlength="240"></label>
+          <label>Assay results CSV <input name="csv" type="file" accept=".csv,text/csv"></label>
+          <label>Lab report PDF <input name="pdf" type="file" accept=".pdf,application/pdf"></label>
+        </div>
+        <button type="submit">Import and screen report</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

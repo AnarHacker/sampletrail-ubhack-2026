@@ -1,0 +1,60 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 2073 >>
+stream
+BT /F1 15 Tf 54 790 Td (Demo Ridge | Assay report) Tj ET
+BT /F1 10 Tf 54 769 Td (SYNTHETIC DEMONSTRATION DATA — NOT REAL MINE OR LABORATORY DATA.) Tj ET
+BT /F1 11 Tf 54 753 Td (SIM-RPT-002   |   SIM-BATCH-01   |   Cu % / SIM-CU) Tj ET
+BT /F1 10 Tf 54 736 Td (Demo Lab · Release: Lab QA Lead A) Tj ET
+BT /F1 10 Tf 54 720 Td (Issued: 2026-11-24T13:00:00+08:00) Tj ET
+BT /F1 10 Tf 54 704 Td (Complete replacement of SIM-RPT-001) Tj ET
+BT /F1 10 Tf 54 688 Td (S07: SIM-ST-070 to SIM-ST-007. S17: 0.015% to 0.004%.) Tj ET
+BT /F1 10 Tf 54 672 Td (Reason: transcription errors in the original report.) Tj ET
+BT /F1 10 Tf 54 656 Td (Slot   Reported sample           Cu \(%\)) Tj ET
+BT /F1 10 Tf 54 640 Td (S01    SIM-ST-001                0.300) Tj ET
+BT /F1 10 Tf 54 624 Td (S02    SIM-ST-002                0.010) Tj ET
+BT /F1 10 Tf 54 608 Td (S03    SIM-ST-003                0.247) Tj ET
+BT /F1 10 Tf 54 592 Td (S04    SIM-ST-004                0.188) Tj ET
+BT /F1 10 Tf 54 576 Td (S05    SIM-ST-005                0.332) Tj ET
+BT /F1 10 Tf 54 560 Td (S06    SIM-ST-006                0.105) Tj ET
+BT /F1 10 Tf 54 544 Td (S07    SIM-ST-007                0.224) Tj ET
+BT /F1 10 Tf 54 528 Td (S08    SIM-ST-008                0.173) Tj ET
+BT /F1 10 Tf 54 512 Td (S09    SIM-ST-009                0.196) Tj ET
+BT /F1 10 Tf 54 496 Td (S10    SIM-ST-010                0.255) Tj ET
+BT /F1 10 Tf 54 480 Td (S11    SIM-ST-011                0.138) Tj ET
+BT /F1 10 Tf 54 464 Td (S12    SIM-ST-012                0.280) Tj ET
+BT /F1 10 Tf 54 448 Td (S13    SIM-ST-013                0.215) Tj ET
+BT /F1 10 Tf 54 432 Td (S14    SIM-ST-014                0.145) Tj ET
+BT /F1 10 Tf 54 416 Td (S15    SIM-ST-015                0.251) Tj ET
+BT /F1 10 Tf 54 400 Td (S16    SIM-CD-01                 0.312) Tj ET
+BT /F1 10 Tf 54 384 Td (S17    SIM-BLK-01                0.004) Tj ET
+BT /F1 10 Tf 54 368 Td (S18    SIM-PD-01                 0.012) Tj ET
+BT /F1 10 Tf 54 352 Td (S19    SIM-CRM-A                 0.254) Tj ET
+BT /F1 10 Tf 54 336 Td (S20    SIM-CRM-B                 0.524) Tj ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000336 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2461
+%%EOF

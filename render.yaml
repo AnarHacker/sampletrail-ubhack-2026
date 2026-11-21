@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sampletrail
+    runtime: python
+    plan: free
+    buildCommand: python -m sampletrail.fixtures
+    startCommand: python -m sampletrail --hosted
+    healthCheckPath: /healthz
+    autoDeployTrigger: "off"

@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+/.aws/
+/.codex/
+/.agents/
+/tmp/
+
+# Keep competition preparation and research notes local.
+/proposal/
+/research/
+/user-research/
+/submission/

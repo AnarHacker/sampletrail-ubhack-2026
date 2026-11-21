@@ -1,0 +1,47 @@
+{
+  "id": "SIM-CU-RULES-01",
+  "source": "Demo Ridge project rules",
+  "data_label": "SYNTHETIC DEMONSTRATION DATA — NOT REAL MINE OR LABORATORY DATA.",
+  "crm": {
+    "A": {
+      "certificate": "SIM-CERT-A",
+      "reference": "0.250",
+      "pass": "0.020",
+      "warn": "0.040"
+    },
+    "B": {
+      "certificate": "SIM-CERT-B",
+      "reference": "0.500",
+      "pass": "0.020",
+      "warn": "0.040"
+    }
+  },
+  "blank": {
+    "pass": "0.005",
+    "warn": "0.010"
+  },
+  "duplicate": {
+    "CORE_DUP": {
+      "floor": "0.050",
+      "absolute": {
+        "pass": "0.003",
+        "warn": "0.006"
+      },
+      "rpd": {
+        "pass": "10",
+        "warn": "20"
+      }
+    },
+    "PREP_DUP": {
+      "floor": "0.050",
+      "absolute": {
+        "pass": "0.003",
+        "warn": "0.006"
+      },
+      "rpd": {
+        "pass": "10",
+        "warn": "20"
+      }
+    }
+  }
+}
